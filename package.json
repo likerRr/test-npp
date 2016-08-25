@@ -2,9 +2,12 @@
   "name": "application-name",
   "version": "0.0.1",
   "scripts": {
-    "install-protos": "npm uninstall node-pogo-protos && npm pack ../node-pogo-protos/ && npm install node-pogo-protos-1.4.0.tgz"
+    "typings": "typings install",
+    "postinstall": "npm run typings",
+    "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "node-pogo-protos": "git://github.com/likerRr/node-pogo-protos.git#typings_support"
+    "node-pogo-protos": "git://github.com/likerRr/node-pogo-protos.git#typings_support",
+    "typings": "^1.3.2"
   }
 }
