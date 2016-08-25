@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "bytebuffer": "registry:dt/bytebuffer#5.0.0+20160624071349",
+    "long": "registry:dt/long#3.0.2+20160602144319",
+    "node": "registry:env/node#6.0.0+20160824014937"
+  }
+}

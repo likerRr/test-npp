@@ -1,0 +1,10 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts": {
+    "install-protos": "npm uninstall node-pogo-protos && npm pack ../node-pogo-protos/ && npm install node-pogo-protos-1.4.0.tgz"
+  },
+  "dependencies": {
+    "node-pogo-protos": "git://github.com/likerRr/node-pogo-protos.git#typings_support"
+  }
+}
