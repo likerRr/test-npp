@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "node-pogo-protos": "git://github.com/likerRr/node-pogo-protos.git#typings_support",
-    "typings": "^1.3.2"
+    "typings": "^1.3.2",
+    "typescript": "^1.8.10"
   }
 }
